@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="description"
+			content="Welcome to Adventure Trails Hikes! We aim to offer the most
+		exciting, challenging, educational, and cultural extreme hikes, in
+		exhilarating locations around the globe."
+		/>
+		<title>Space X | About Space X</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link
+			href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style/style.css" />
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<nav>
+					<div class="nav-brand">
+						<a href="index.html">
+							<img src="#" alt="Space X" />
+						</a>
+					</div>
+					<div class="menu-icons open">
+						<i class="icon ion-md-menu"></i>
+					</div>
+
+					<ul class="nav-list">
+						<div class="menu-icons close">
+							<i class="icon ion-md-close"></i>
+						</div>
+						<li class="nav-item">
+							<a href="index.html" class="nav-link">Home</a>
+						</li>
+						<li class="nav-item">
+							<a href="lounches.html" class="nav-link">Lounches</a>
+						</li>
+						<li class="nav-item">
+							<a href="spaceships.html" class="nav-link">Spaceships</a>
+						</li>
+						<li class="nav-item">
+							<a href="about.html" class="nav-link">About Us</a>
+						</li>
+						<li class="nav-item">
+							<a href="contact.html" class="nav-link current">Contact</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<section class="contact">
+			<h1>Contact Us</h1>
+			<div class="border"></div>
+
+			<form class="contact-form" action="guides.html" method="post">
+				<input type="name" class="contact-form-text" placeholder="Your Name" />
+				<div class="form-error" id="nameError">Please enter your name</div>
+				<input
+					type="email"
+					class="contact-form-text"
+					placeholder="Your Email"
+				/>
+				<div class="form-error" id="emailError">Please enter your email</div>
+
+				<input
+					type="phone"
+					class="contact-form-text"
+					placeholder="Your Phone"
+				/>
+				<div class="form-error" id="phoneError">
+					Please enter your phone number
+				</div>
+
+				<textarea
+					class="contact-form-text"
+					placeholder="Your Request"
+				></textarea>
+				<div class="form-error" id="messageError">
+					Please enter your phone number
+				</div>
+
+				<button type="submit" class="btn btn-primary" id="submit">
+					Submit
+				</button>
+			</form>
+		</section>
+
+		<footer>
+			<p>&copy; 2020 Space X. All right reserved</p>
+		</footer>
+
+		<script type="text/javascript" src="/js/contact.js"></script>
+		<script type="text/javascript" src="/js/script.js"></script>
+	</body>
+</html>
